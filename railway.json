@@ -1,0 +1,12 @@
+{
+  "build": {
+    "command": "npm install"
+  },
+  "deploy": {
+    "command": "npm start",
+    "env": {
+      "DISCORD_WEBHOOK_URL": "",
+      "TEBEX_SECRET": ""
+    }
+  }
+}
